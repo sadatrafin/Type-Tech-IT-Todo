@@ -15,7 +15,7 @@ export default function TodoApp() {
     const [todos, setTodos] = useState<Todo[]>([]);
     const [inputValue, setInputValue] = useState('');
     const [filter, setFilter] = useState<FilterType>('all');
-    const [editingId, setEditingId] = useState<number | null>(null);
+    const [editingId, setEditingId] = useState<number | null>(null);    
     const [editValue, setEditValue] = useState('');
     const [isLoaded, setIsLoaded] = useState(false);
 
