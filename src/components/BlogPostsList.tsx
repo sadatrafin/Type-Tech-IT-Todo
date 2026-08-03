@@ -9,7 +9,7 @@ interface Product {
   price: number;
   rating: number;
   discountPercentage: number;
-  thumbnail: string;
+  thumbnail: string;   
   images?: string[];
 }
 
